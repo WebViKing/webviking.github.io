@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebViKing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #050c1c;
+            color: #ccc;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main {
+            width: 600px;
+            margin: 40px auto;
+        }
+        h1 {
+            color: #e42d3b;
+            font-family: 'Fira Code', monospace;
+        }
+        pre {
+            font-family: 'Fira Code', monospace;
+            background: #192032;
+            padding: .5rem;
+        }
+        .video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.btn {
+    padding: .5rem;
+    font-size: 1.2rem;
+    border-color: 1px solid;
+    text-decoration: none;
+    color: white;
+    font-size: .75rem;
+    border-radius: 4px;
+}
+.btn.github {
+    background: #21262d;
+    border-color: #373b42;
+}
+.btn.twitter {
+    background: #1d9bf0;
+}
+.social {
+    text-align: right;
+    margin-top: 1rem;
+}
+.social .btn {
+    margin-left: .5rem;
+}
+    </style>
+</head>
+<body>
+    <main>
+        <h1>WebViKing</h1>
+    <pre>My mother told me
+That someday I would
+Have a good web browser
+And sail to distant shores
+</pre>
+<div class="video">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/66C-tiJQg8k" title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+</div>
+    <div class="social">
+        <a href="https://github.com/WebViKing" target="_blank" class="btn github">Follow me on GitHub</a>
+        <!-- <a href="#" target="_blank" class="btn twitter">Follow me on Twitter</a> -->
+    </div>
+    </main>
+</body>
+</html>
